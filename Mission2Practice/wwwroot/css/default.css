@@ -1,0 +1,23 @@
+﻿h2 {
+    font-style: italic;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
