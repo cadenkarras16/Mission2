@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\" />
-    <Content Remove="wwwroot\index.html" />
     <Content Remove="wwwroot\img\" />
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\css\" />
@@ -20,8 +19,17 @@
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="views\" />
+    <Folder Include="views\Blah\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="views\Shared\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="wwwroot\index.html" />
+    <None Remove="views\" />
+    <None Remove="views\Blah\" />
+    <None Remove="Controllers\" />
+    <None Remove="Models\" />
+    <None Remove="views\Shared\" />
   </ItemGroup>
 </Project>
